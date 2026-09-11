@@ -66,7 +66,7 @@ while True:
     elif choice == "7":
         spin = GymClass("Spinning", "Wednesday")
         try:
-            spin.add_member(m1)  # m1 is Basic, already in Yoga -> limit is 1
+            spin.add_member(m1)  
         except ValueError as e:
             print(f"Rejected: {e}")
 
